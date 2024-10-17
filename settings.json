@@ -1,0 +1,271 @@
+{
+    "application.shellEnvironmentResolutionTimeout": 10000,
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+    },
+    "editor.minimap.enabled": false,
+    "editor.fontLigatures": "'ss01', 'ss04', 'ss05'",
+    "diffEditor.wordWrap": "off",
+    "editor.wordWrap": "on",
+    "editor.fontWeight": 400,
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+      {
+        "before": ["j", "j"],
+        "after": ["<Esc>"]
+      }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+      {
+        "before": ["<leader>", "d"],
+        "after": ["d", "d"]
+      },
+      {
+        "before": ["<C-n>"],
+        "commands": [":nohl"]
+      },
+      {
+        "before": ["K"],
+        "commands": ["lineBreakInsert"],
+        "silent": true
+      }
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+      "<C-a>": false,
+      "<C-f>": false
+    },
+    "workbench.colorCustomizations": {
+      "statusBar.background": "#9C195B",
+      "statusBar.noFolderBackground": "#9C195B",
+      "statusBar.debuggingBackground": "#9C195B",
+      "[Solarized Custom Dark]": {
+        "activityBarBadge.background": "#859900FF",
+        "badge.background": "#859900FF",
+        "focusBorder": "#85990080",
+        "button.background": "#859900FF",
+        "pickerGroup.foreground": "#85990080",
+        "quickInputList.focusBackground": "#85990033",
+        "quickInputList.focusForeground": "#282825",
+        "dropdown.border": "#85990080",
+        "editor.wordHighlightBorder": "#8599000D",
+        "editor.wordHighlightStrongBorder": "#85990033",
+        "tab.activeBorderTop": "#859900FF",
+        "inputOption.activeBorder": "#85990080",
+        "list.activeSelectionBackground": "#85990033",
+        "list.activeSelectionForeground": "#859900FF",
+        "list.hoverBackground": "#8599001A",
+        "list.inactiveSelectionBackground": "#85990026",
+        "list.inactiveSelectionForeground": "#859900FF",
+        "list.highlightForeground": "#859900FF",
+        "peekViewEditor.matchHighlightBackground": "#85990033",
+        "peekViewResult.matchHighlightBackground": "#85990040",
+        "peekViewResult.selectionBackground": "#85990033",
+        "progressBar.background": "#859900FF",
+        "statusBarItem.remoteBackground": "#85990080"
+      },
+      "statusBar.foreground": "#ffffff",
+      "statusBar.debuggingForeground": "#ffffff"
+    },
+    "vim.statusBarColorControl": true,
+    "vim.statusBarColors.visual": "#803708",
+    "vim.statusBarColors.visualblock": "#a02236",
+    "vim.statusBarColors.visualline": "#9C195B",
+    "vim.substituteGlobalFlag": true,
+    "vim.statusBarColors.replace": "#6f1f45",
+    "vim.statusBarColors.insert": "#4d4d0e",
+    "vim.statusBarColors.normal": "#1d2021",
+    "editor.renderLineHighlight": "gutter",
+    "markdown.preview.lineHeight": 1,
+    "notebook.lineNumbers": "on",
+    "editor.renderWhitespace": "none",
+    "filesize.showGzipInStatusBar": true,
+    "editor.inlineSuggest.enabled": true,
+    "editor.lineHeight": 1.85,
+    "guides.active.width": 2,
+    "guides.active.gutter": true,
+    "guides.indent.hideBackgroundOnSelection": false,
+    "editor.guides.bracketPairs": "active",
+    "editor.cursorWidth": 1,
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.guides.indentation": false,
+    "editor.tokenColorCustomizations": {
+      "textMateRules": [
+        {
+          "name": "One Dark italic",
+          "scope": [
+            "comment",
+            "entity.other.attribute-name",
+            "keyword",
+            "markup.underline.link",
+            "storage.modifier",
+            "storage.type",
+            "string.url",
+            "variable.language.super",
+            "variable.language.this"
+          ],
+          "settings": {
+            "fontStyle": "italic"
+          }
+        },
+        {
+          "name": "One Dark italic reset",
+          "scope": [
+            "keyword.operator",
+            "keyword.other.type",
+            "storage.modifier.import",
+            "storage.modifier.package",
+            "storage.type.built-in",
+            "storage.type.function.arrow",
+            "storage.type.generic",
+            "storage.type.java",
+            "storage.type.primitive"
+          ],
+          "settings": {
+            "fontStyle": ""
+          }
+        }
+      ]
+    },
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+  
+    "prettier.tabWidth": 4,
+    "prettier.useTabs": true,
+    "window.commandCenter": true,
+    "editor.formatOnSave": true,
+    "editor.fontSize": 16,
+    "editor.lineNumbers": "relative",
+    "oneDarkPro.bold": true,
+    "oneDarkPro.vivid": true,
+    "terminal.integrated.gpuAcceleration": "off",
+    "workbench.productIconTheme": "jetbrains-product-icons",
+    "errorLens.enabledDiagnosticLevels": ["info", "error"],
+    "errorLens.enabled": true,
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.lineHeight": 1.3,
+    "terminal.integrated.fontFamily": " 'Dank Mono'",
+    "intelephense.stubs": [
+      "apache",
+      "bcmath",
+      "bz2",
+      "calendar",
+      "com_dotnet",
+      "Core",
+      "ctype",
+      "curl",
+      "date",
+      "dba",
+      "dom",
+      "enchant",
+      "exif",
+      "FFI",
+      "fileinfo",
+      "filter",
+      "fpm",
+      "ftp",
+      "gd",
+      "gettext",
+      "gmp",
+      "hash",
+      "iconv",
+      "imap",
+      "intl",
+      "json",
+      "ldap",
+      "libxml",
+      "mbstring",
+      "meta",
+      "mysqli",
+      "oci8",
+      "odbc",
+      "openssl",
+      "pcntl",
+      "pcre",
+      "PDO",
+      "pdo_ibm",
+      "pdo_mysql",
+      "pdo_pgsql",
+      "pdo_sqlite",
+      "pgsql",
+      "Phar",
+      "posix",
+      "pspell",
+      "readline",
+      "Reflection",
+      "session",
+      "shmop",
+      "SimpleXML",
+      "snmp",
+      "soap",
+      "sockets",
+      "sodium",
+      "SPL",
+      "sqlite3",
+      "standard",
+      "superglobals",
+      "sysvmsg",
+      "sysvsem",
+      "sysvshm",
+      "tidy",
+      "tokenizer",
+      "xml",
+      "xmlreader",
+      "xmlrpc",
+      "xmlwriter",
+      "xsl",
+      "Zend OPcache",
+      "zip",
+      "zlib",
+      "wordpress"
+    ],
+    "editor.fontFamily": "'Dank Mono', 'Cascadia Code', 'Dank Mono'",
+    "workbench.iconTheme": "sakai-icons-light",
+    "path-intellisense.showHiddenFiles": true,
+    "editor.cursorBlinking": "expand",
+    "[css]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "symbols.hidesExplorerArrows": false,
+    "update.mode": "manual",
+    "git.autofetch": true,
+    "workbench.sideBar.location": "right",
+    "workbench.settings.applyToAllProfiles": [],
+    "keyboard.dispatch": "keyCode",
+    "window.titleBarStyle": "custom",
+    "editor.stickyScroll.maxLineCount": 1,
+    "workbench.tree.enableStickyScroll": false,
+    "editor.stickyScroll.scrollWithEditor": false,
+    "editor.stickyScroll.enabled": false,
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "window.autoDetectHighContrast": false,
+    "workbench.editor.showIcons": false,
+    "workbench.preferredHighContrastLightColorTheme": "Linux Terminal Flat Dark",
+    "terminal.integrated.env.osx": {},
+    "workbench.colorTheme": "Kanagawa Paper",
+    "editor.quickSuggestions": {
+      "strings": "on"
+    },
+    "git-graph.customEmojiShortcodeMappings": [],
+    "editor.codeLensFontFamily": "'Cascadia Code'",
+    "editor.experimentalInlineEdit.fontFamily": "'Cascadia Code'",
+    "chat.editor.fontFamily": "'Dank Mono'",
+    "editor.inlineSuggest.fontFamily": "'Dank Mono'",
+    "workbench.activityBar.location": "bottom",
+  
+    "vscode_custom_css.imports": [
+      "file:///Users/your-user-name/custom-vscode.css",
+      "file:///Users/your-user-name/vscode-script.js"
+    ]
+  }
+  
